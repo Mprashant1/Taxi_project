@@ -19,9 +19,8 @@
             if(cab==='CedMicro'){
                 let eleman = document.getElementById('luggage');
                 eleman.setAttribute("disabled", true);
-            }else if(isNaN(luggage) || luggage ==""){
-                       alert("Luggage value must be numeric and not be blank!!!");
-                       return;
+            }else{
+                    eleman.removeAttribute("disabled", false);   
                     }
         }
     </script>
@@ -40,6 +39,9 @@
                         document.getElementById('exampleModalLongTitle').innerHTML="Drop point mandatory!!!";
                     }else if(cab=="Cab Type"){
                         document.getElementById('exampleModalLongTitle').innerHTML="Cab Type must be choosen!!!";
+                    }else if(isNaN(luggage) || luggage ==""){
+                       alert("Luggage value must be numeric and not be blank!!!");
+                       return;
                     }
                 ev.preventDefault();
                 $.ajax({
