@@ -85,6 +85,10 @@
 	 	}
 	 }
 	 echo json_encode($price);
+	 $origin="";
+	 $des="";
+	 $type="";
+	 $luggage=0;
 	}
 	 
 ?>
