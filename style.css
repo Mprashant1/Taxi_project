@@ -50,10 +50,6 @@ form select {
 footer{
     background-color: #f8f9fa;
 }
-#copy{
-    position: absolute;
-    right: 15px;
-}
 #city,#submit{
     background-image: linear-gradient(to right ,lightgreen, yellow);
 }

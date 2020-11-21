@@ -12,7 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link href="demo.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
     <script>
         function myfun(){
             var cab=document.getElementById('cab-type').value;
@@ -143,29 +143,21 @@
 </div>
     </div>
     <footer class="page-footer font-small blue">
-         <div class="row align-items-center">
-    <div class="col">
-      <div class="row mt-3">
-                        <div class="col-sm ml-5 w-25">
-                           <ion-icon name="logo-facebook" class="icons"></ion-icon>
-                        </div>
-                        <div class="col-sm ml-5 w-25">
-                           <ion-icon name="logo-twitter" class="icons"></ion-icon>
-                        </div>
-                        <div class="col-sm ml-5 w-25">
-                           <ion-icon name="logo-instagram" class="icons"></ion-icon>
-                        </div>
-                     </div>
-    </div>
-    <div class="col ml-5 pl-4 text-center">
-        <span id="ced">Ced</span><span id="cab">Cab</span>
-    </div>
-    <div class="col">
-      <div class="footer-copyright text-center" id="copy">© 2020 Copyright:
-    <a href="#" class="text-dark"><span id="taxi">Cedcab.com</span></a>
-  </div>
-    </div>
-  </div>
+        <div class="row align-items-center">
+          <div class="col">
+            <ion-icon name="logo-facebook" class="icons"></ion-icon>
+            <ion-icon name="logo-twitter" class="icons"></ion-icon>
+            <ion-icon name="logo-instagram" class="icons"></ion-icon>
+          </div>
+          <div class="col">
+             <span id="ced">Ced</span><span id="cab">Cab</span>
+          </div>
+          <div class="col">
+             <div class="footer-copyright text-center" id="copy">© 2020 Copyright:
+              <a href="#" class="text-dark"><span id="taxi">Cedcab.com</span></a>
+            </div>
+          </div>
+        </div>
  </footer>
  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
