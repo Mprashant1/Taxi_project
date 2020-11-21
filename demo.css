@@ -1,0 +1,66 @@
+
+
+#wrapper {
+    background-image: url('images.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nav-btn,
+#submit,
+#form span {
+    background-color: #ccff33;
+    border: none;
+    color: black;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#form h5 small {
+    display: block;
+}
+
+#form {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+form select {
+    -webkit-appearance: none;
+}
+#ced{
+    color: blue;
+    font-size: 35px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right ,lightgreen, yellow);
+}
+#cab{
+    color: deeppink;
+    font-size: 35px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right ,lightgreen, yellow);
+}
+footer{
+    background-color: #f8f9fa;
+}
+#copy{
+    position: absolute;
+    right: 15px;
+}
+#city,#submit{
+    background-image: linear-gradient(to right ,lightgreen, yellow);
+}
+.icons{
+    width: 30px;
+    height: 40px;
+}
+.col-sm{
+    width: 35%;
+}
